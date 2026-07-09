@@ -41,7 +41,7 @@ def train_model():
     # Fit the model on the training data.
     model.fit(X_train, y_train)
 
-    # Predict the prices for the test data.
+    # Predict the prices for the test
     predictions = model.predict(X_test)
 
     # Compute the evaluation metrics.
