@@ -11,7 +11,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
 
-# Create the house-size values in square fee
+# Create the house-size values in square feet.
 HOUSE_SIZES = np.array([600, 750, 900, 1100, 1300, 1500, 1700, 1900, 2100, 2300])
 
 # Create the matching house prices in dollars.
