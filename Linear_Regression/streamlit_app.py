@@ -6,7 +6,7 @@ from house_price_model import predict_price, train_model
 
 
 # Set the page title, icon, and layout for a cleaner UI.
-st.set_page_config(page_title="House Price Predictor", page_icon="🏠", layout="centered")
+st.set_page_config(page_title="House Price Predictor created by Uzair ALi ", page_icon="🏠", layout="centered")
 
 # Show the main title of the application.
 st.title("House Price Prediction with Linear Regression")
