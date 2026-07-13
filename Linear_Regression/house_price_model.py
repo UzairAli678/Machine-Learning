@@ -53,7 +53,7 @@ def train_model():
     return model, {"mae": mae, "mse": mse, "r2": r2}
 
 
-# Predict the price for a single house size
+# Predict the price for a single house 
 def predict_price(model, house_size):
     # Put the user-entered size into the 2D shape expected by scikit-learn.
     input_value = np.array([[house_size]])
